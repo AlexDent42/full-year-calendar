@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+:root {
+    --background-light:#f1fbff;
+    --background-month:#fff;
+    --th-color:#5a8990;
+}
+
+
+body {
+    background: var(--background-light);
+}
+
+.calendar {
+    padding: 20px 40px;
+}
+
+
+.months-container {
+    gap:40px; 
+    justify-content: center;
+}
+
+.calendar .months-container .month-container {
+    background: var(--background-month);
+    padding: 20px;
+    min-width: 280px;
+    box-shadow: 15px 15px 40px rgba(0,0,0,0.15);
+}
+
+.calendar table.month th.month-title {
+     color: var(--th-color);
+     font-size: 1.9em;
+     font-weight: 200;
+}
